@@ -15,10 +15,7 @@ export default function ServerSelect({
       onChange={(e) => setServers(e.target.value)}>
       <option disabled>Select batch</option>
       <optgroup label="Kattankulathur">
-        <option value="ktretelab2025">KTR 2025</option>
-        <option value="ktretelab2024">KTR 2024</option>
-        <option value="ktretelab2023">KTR 2023</option>
-        <option value="ktretelab2022">KTR 2022</option>
+        <option value="fetelab">KTR</option>
         {/* <option value="ktretelab2021">KTR 2021</option> */}
         {/* <option value="ktretelab2020">KTR 2020</option> */}
       </optgroup>
